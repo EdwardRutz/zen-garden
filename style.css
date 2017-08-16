@@ -1,0 +1,126 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/*------- BASIC ELEMENTS -------*/
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.5;
+	color: #000; 
+	}
+
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #000;
+	}
+
+/*-------NAV, LINKS -------*/
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #000;
+	}
+a:visited { 
+	font-style: italic;
+	font-weight: normal; 
+	text-decoration: none; 
+	color: #4c4c4c;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline;
+	font-style: italic;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/*-------specific divs-------*/
+.page-wrapper { 
+/*	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
+*/	padding: 0 175px 0 110px;  
+	/*margin: 0; 
+	position: relative;*/
+	}
+
+/*---- Hide Summary Text -----*/
+.summary {
+	visibility: hidden;
+}
+
+ header h1 { 
+	margin-top: 100px;
+	margin-bottom: 0;
+	float: center;
+	font-size: 3em;
+	font-style: italic;
+	text-align: center;
+}
+
+
+header h2 { 
+	margin-top: 80px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-style: italic;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	margin-top: 58px; 
+}
+
+/*---- COLUMNS -------*/
+.main.supporting {
+	-webkit-column-count: 3;
+	-webkit-column-gap: 40px;
+	-webkit-column-rule: 1px solid;
+	}
+.preamble {
+	-webkit-column-count: 3;
+	-webkit-column-gap: 40px;
+	-webkit-column-rule: 1px solid;
+	}
+
+
+/*---- HORIZONAL RULE -------*/
+  .wrapper {
+     color: #000;
+     background: #000; 
+     width: 100%; 
+     height: 3px;
+ 	}
+
+
+
+/*------- FOOTER -------*/
+
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.design-selection {
+	float: left;
+}
+
+.design-archives {
+	float: right;
+}
+.zen-resources {
+	float: right;
+}
+
